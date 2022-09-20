@@ -1,5 +1,5 @@
-describe('Fill the menu panel', () => {
-    it('Must access the form and fill in the data', async () => {
+describe('Primeiro teste', () => {
+    it('Preencher o campo forms para confirmar os dados', async () => {
         await $('~Forms').click()
         await $('~text-input').setValue('Digitei isso aqui')
         await $('~switch').click()
