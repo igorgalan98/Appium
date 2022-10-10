@@ -1,5 +1,5 @@
-describe('Primeiro teste', () => {
-    it('Preencher o campo forms para confirmar os dados', async () => {
+describe('Realizar o caminho feliz do forms', () => {
+    it('Deve preencher os dados de usuário e salvar as informações', async () => {
         await $('~Forms').click()
         await $('~text-input').setValue('Digitei isso aqui')
         await $('~switch').click()
